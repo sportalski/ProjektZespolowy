@@ -1,0 +1,115 @@
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Antlr3.Runtime.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\EntityFramework.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\EntityFramework.SqlServer.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Web.Infrastructure.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Newtonsoft.Json.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Owin.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Helpers.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Mvc.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Optimization.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Razor.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.WebPages.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\WebGrease.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Antlr3.Runtime.pdb
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\EntityFramework.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\EntityFramework.SqlServer.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Newtonsoft.Json.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Helpers.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Mvc.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Razor.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.WebPages.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.WebPages.Deployment.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.WebPages.Razor.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\System.Web.Optimization.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Google.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\obj\Debug\MVCProj.csproj.GenerateResource.Cache
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\MVCProj.dll.config
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\MVCProj.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\bin\MVCProj.pdb
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\obj\Debug\MVCProj.dll
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\obj\Debug\MVCProj.pdb
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\obj\Debug\MVCProj.Migrations.InitialCreate.resources
+C:\Ex_Files_ASPNETMVC5_EssT\Ex_Files_ASPNETMVC5_EssT\Exercise Files\Ch5\Final\AutomatedTellerMachine\obj\Debug\MVCProj.Migrations.AccountNumberChanges.resources
+C:\Nowy folder (2)\MVCProj\bin\MVCProj.dll.config
+C:\Nowy folder (2)\MVCProj\bin\MVCProj.dll
+C:\Nowy folder (2)\MVCProj\bin\MVCProj.pdb
+C:\Nowy folder (2)\MVCProj\bin\Antlr3.Runtime.dll
+C:\Nowy folder (2)\MVCProj\bin\EntityFramework.dll
+C:\Nowy folder (2)\MVCProj\bin\EntityFramework.SqlServer.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Google.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Web.Infrastructure.dll
+C:\Nowy folder (2)\MVCProj\bin\Newtonsoft.Json.dll
+C:\Nowy folder (2)\MVCProj\bin\Owin.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Helpers.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Mvc.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Optimization.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Razor.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.WebPages.Deployment.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.WebPages.dll
+C:\Nowy folder (2)\MVCProj\bin\System.Web.WebPages.Razor.dll
+C:\Nowy folder (2)\MVCProj\bin\WebGrease.dll
+C:\Nowy folder (2)\MVCProj\bin\Antlr3.Runtime.pdb
+C:\Nowy folder (2)\MVCProj\bin\EntityFramework.xml
+C:\Nowy folder (2)\MVCProj\bin\EntityFramework.SqlServer.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Nowy folder (2)\MVCProj\bin\Newtonsoft.Json.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Helpers.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Mvc.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Razor.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.WebPages.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.WebPages.Deployment.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.WebPages.Razor.xml
+C:\Nowy folder (2)\MVCProj\bin\System.Web.Optimization.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Google.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Nowy folder (2)\MVCProj\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Nowy folder (2)\MVCProj\obj\Debug\MVCProj.csprojResolveAssemblyReference.cache
+C:\Nowy folder (2)\MVCProj\obj\Debug\MVCProj.Migrations.InitialCreate.resources
+C:\Nowy folder (2)\MVCProj\obj\Debug\MVCProj.Migrations.AccountNumberChanges.resources
+C:\Nowy folder (2)\MVCProj\obj\Debug\MVCProj.csproj.GenerateResource.Cache
+C:\Nowy folder (2)\MVCProj\obj\Debug\MVCProj.dll
+C:\Nowy folder (2)\MVCProj\obj\Debug\MVCProj.pdb
