@@ -1,5 +1,5 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 20px;
 }
 
@@ -18,4 +18,77 @@ textarea {
 
 .margin-top-20 {
     margin-top: 20px;
+}
+
+.logo {
+    width: 200px; 
+    padding-bottom: 30px;
+}
+
+.home-section {
+    background-image: url(/Content/images/background.jpg);
+    height: 550px;
+    background-size:cover;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.home-section-right-box {
+    background-color: rgba(255, 255, 255, 0.6);
+    font-family: 'Catamaran', sans-serif;
+    color: #37474F;
+    height: 550px;
+}
+
+.home-section-right-box-header {
+    font-size: 58px;
+    font-weight: 600;
+    line-height: 54px;
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
+
+.home-section-right-box-list {
+    font-size: 28px;
+    line-height: 32px;
+    padding-top: 30px;
+    font-weight: 400;
+    color: #263238;
+}
+
+.home-section-right-box-list-item {
+    padding-bottom: 5px;
+}
+
+.home-section-button {
+    background-color: #0097A7;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    position: relative;
+    left: -50%;
+}
+
+.home-section-button:hover {
+    background-color: #00BCD4;
+    text-decoration: none;
+    color: white;
+}
+
+.home-section-button:active {
+    position:relative;
+    top:2px;
+}
+.home-section-button:focus {outline:0;}
+
+.home-section-button-align {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
 }
