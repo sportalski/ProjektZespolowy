@@ -1,0 +1,10 @@
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\SeleniumTest.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\WebDriver.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\WebDriver.xml
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.xml
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.pdb
