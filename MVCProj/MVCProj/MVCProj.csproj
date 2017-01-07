@@ -196,7 +196,10 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\background.jpg" />
+    <Content Include="Content\images\card.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\money.png" />
+    <Content Include="Content\images\pig.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

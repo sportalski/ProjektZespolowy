@@ -1,6 +1,8 @@
 ﻿body {
     padding-top: 80px;
     padding-bottom: 20px;
+    font-family: 'Catamaran', sans-serif;
+    color: #37474F;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -35,8 +37,7 @@ textarea {
 
 .home-section-right-box {
     background-color: rgba(255, 255, 255, 0.6);
-    font-family: 'Catamaran', sans-serif;
-    color: #37474F;
+
     height: 550px;
 }
 
@@ -91,4 +92,24 @@ textarea {
     position: absolute;
     bottom: 30px;
     left: 50%;
+}
+
+.second-section {
+    padding-top: 30px;
+}
+
+.second-section-image {
+    width: 170px;
+}
+
+.second-section-header {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.second-section-text {
+    font-size: 20px;
+    font-weight: 200;
+    padding-left: 30px;
+    padding-right: 30px;
 }
