@@ -17,7 +17,7 @@ namespace SeleniumTest
             driverGC = new ChromeDriver();
         }
         [TestMethod]
-        public void TestMethod1()
+        public void TestTworzeniaKonta()
         {
             driverGC.Navigate().GoToUrl("http://localhost:56431/");
             driverGC.FindElement(By.LinkText("Zarejestruj")).Click();
