@@ -37,3 +37,31 @@
         <div class="second-section-text">Oferujemy darmową kartę debetową dla każdego naszego klienta.</div>
     </div>
 </div>
+<hr />
+<div class="second-section">
+    <div class="row second-section-header text-center">Kilka informacji o nas</div>
+    <div class="row">
+        <div class="col-md-3 text-center"><img src="~/Content/images/happy.png" class="second-section-image" /></div>
+        <div class="col-md-9 second-section-text second-section-vertical-center">Jesteśmy najmłodszym bankiem na polskim rynku, ktorego kapitał w całości należy do polskich przedsiębiorców. skupiamy się przede wszystkim na zapewnieniu studentom dobrego startu, opieką i pomnażaniem ich funduszy. Wierzymy, że w młodych ludziach tkwi największy potencjał, o który warto zadbać od samego początku i zapewniać jego rozwój.</div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="row second-section-header text-center">Odwiedź nas</div>
+            <div class="row">
+                <div class="col-md-4"><img class="second-section-image" src="~/Content/images/pin.png" /></div>
+                <div class="col-md-8 second-section-common-text text-justify second-section-vertical-center">Zacęcamy do wizyty w oddziale naszego banku zlokalizowanym w samym sercu Trójmiasta. Nasi doradcy chętnie udzielą niezbędnych informacji oraz pomogą zapoznać się z naszą aktualną ofertą.</div>
+            </div>
+            @*Zmienić odniesienie przycisku *@
+            <div class="text-center">@Html.ActionLink("lokalizacja", "Register", "Account", new { }, new { @class = "second-section-button" })</div>
+        </div>
+        <div class="col-md-6">
+            <div class="row second-section-header text-center">Masz pytania?</div>
+            <div class="row">
+                <div class="col-md-4"><img class="second-section-image" src="~/Content/images/letter.png" /></div>
+                <div class="col-md-8 second-section-common-text text-justify second-section-vertical-center">Jeśli zainteresowała Ciebie nasza oferta, lecz chcesz poznać więcej szczegółów, napisz lub zadzwoń do nas! Nasz konsultant dostępny jest we wszystkie dni tygodnia od 7:00 do 20:00!</div>
+            </div>
+            @*Zmienić odniesienie przycisku *@
+            <div class="text-center">@Html.ActionLink("kontakt", "Register", "Account", new { }, new { @class = "second-section-button" })</div>
+        </div>
+    </div>
+</div>

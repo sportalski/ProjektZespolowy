@@ -96,6 +96,7 @@ textarea {
 
 .second-section {
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .second-section-image {
@@ -113,3 +114,42 @@ textarea {
     padding-left: 30px;
     padding-right: 30px;
 }
+
+.second-section-common-text {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.second-section-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 170px;
+}
+
+.second-section-button {
+    background-color: white;
+    border: 4px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #37474F;
+    color: #37474F;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    position: relative;
+}
+
+.second-section-button:hover {
+    background-color: #00BCD4;
+    text-decoration: none;
+    color: white;
+}
+
+.second-section-button:active {
+    position:relative;
+    top:2px;
+}
+.second-section-button:focus {outline:0;}
