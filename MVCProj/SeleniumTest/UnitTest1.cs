@@ -20,7 +20,7 @@ namespace SeleniumTest
         public void TestTworzeniaKonta()
         {
             driverGC.Navigate().GoToUrl("http://localhost:56431/");
-            driverGC.FindElement(By.LinkText("Zarejestruj")).Click();
+            driverGC.FindElement(By.LinkText("zarejestruj")).Click();
             driverGC.FindElement(By.Name("Email")).SendKeys("testowy1@testowy.pl");
             driverGC.FindElement(By.Name("FirstName")).SendKeys("Wojtek");
             driverGC.FindElement(By.Name("LastName")).SendKeys("Testowy");
@@ -33,7 +33,7 @@ namespace SeleniumTest
         public void TestHasloTworzenieKonta()
         {
             driverGC.Navigate().GoToUrl("http://localhost:56431/");
-            driverGC.FindElement(By.LinkText("Zarejestruj")).Click();
+            driverGC.FindElement(By.LinkText("zarejestruj")).Click();
             driverGC.FindElement(By.Name("Email")).SendKeys("testowy11@testowy1.pl");
             driverGC.FindElement(By.Name("FirstName")).SendKeys("Wojtekk");
             driverGC.FindElement(By.Name("LastName")).SendKeys("Testowyt");
@@ -46,9 +46,11 @@ namespace SeleniumTest
         public void TestKontoSrodki()
         {
             driverGC.Navigate().GoToUrl("http://localhost:56431/");
+            driverGC.FindElement(By.LinkText("Log in")).Click();
             driverGC.FindElement(By.Name("Email")).SendKeys("logowanie@testowe.pl");
             driverGC.FindElement(By.Name("Password")).SendKeys("1Q2w3e4r%");
             driverGC.FindElement(By.XPath("/html[@class=' js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths']/body/div[@class='container body-content']/div[@class='row']/div[@class='col-md-8']/section[@id='loginForm']/form[@class='form-horizontal']/div[@class='form-group'][4]/div[@class='col-md-offset-2 col-md-10']/input[@class='btn btn-default']")).Click();
+            driverGC.FindElement(By.LinkText("tymczasowy link do panelu użytkownika")).Click();
             driverGC.FindElement(By.XPath("/html[@class=' js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths']/body/div[@class='container body-content']/div[@class='row']/div[@class='col-md-6 margin-top-20'][1]/a[@class='btn btn-primary btn-large btn-block'][3]")).Click();
             Assert.IsTrue(driverGC.PageSource.Contains("logowanie testowe"));
             Assert.IsTrue(driverGC.PageSource.Contains("0,00 zł"));
