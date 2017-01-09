@@ -37,7 +37,6 @@ textarea {
 
 .home-section-right-box {
     background-color: rgba(255, 255, 255, 0.6);
-
     height: 550px;
 }
 
@@ -153,3 +152,56 @@ textarea {
     top:2px;
 }
 .second-section-button:focus {outline:0;}
+
+.third-section {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    background-color: #FFCC80;
+    padding-bottom: 30px;
+}
+
+.third-section-header {
+    font-size: 28px;
+    font-weight: 600;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.third-section-minor-header {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.third-section-text {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.third-section-text-margin {
+    margin-bottom: 10px;
+}
+
+/*zamienić*/
+.form-section {
+    height: 120px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.form-comment {
+    font-size: 20px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: italic;
+}
+
+.form-comment-vertical-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 120px;
+}
+/*-------------*/
