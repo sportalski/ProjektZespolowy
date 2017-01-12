@@ -16,12 +16,13 @@
                 </ul>
                 <div class="text-center home-section-button-align">
                     @*<a class="home-section-button" href="">zarejestruj</a>*@
-                    @Html.ActionLink("zarejestruj", "Register", "Account", new {}, new { @class = "home-section-button" })
+                    @Html.ActionLink("zarejestruj", "Register", "Account", new { }, new { @class = "home-section-button" })
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 <div class="second-section">
     <div class="row second-section-header text-center">Kilka informacji o nas</div>
     <div class="row">
@@ -50,6 +51,7 @@
     </div>
 </div>
 <hr />
+
 <div class="row">
     <div class="col-md-4 text-center">
         <img src="~/Content/images/pig.png" class="second-section-image" />
@@ -68,64 +70,79 @@
     </div>
 </div>
 
-<div class="third-section col-md-12">
-    <div class="row"><div class="third-section-header text-center">Kontakt telefoniczny i mailowy</div></div>
-    <div class="row">
-        <div class="col-md-offset-3 col-md-4">
-            <div class="third-section-minor-header">Informacje</div>
-            <div class="third-section-text third-section-text-margin">pon - nd, 7:00 - 20:00</div>
-            <div class="third-section-text">801 100 100</div>
-            <div class="third-section-text third-section-text-margin">+48 500 000 000</div>
-            <div class="third-section-text">informacje@sbank.com</div>
+<div class="row">
+    <div class="col-md-12 third-section">
+        <div class="row"><div class="third-section-header text-center">Kontakt telefoniczny i mailowy</div></div>
+        <div class="row">
+            <div class="col-md-offset-3 col-md-4">
+                <div class="third-section-minor-header">Informacje</div>
+                <div class="third-section-text third-section-text-margin">pon - nd, 7:00 - 20:00</div>
+                <div class="third-section-text">801 100 100</div>
+                <div class="third-section-text third-section-text-margin">+48 500 000 000</div>
+                <div class="third-section-text">informacje@sbank.com</div>
+            </div>
+            <div class="col-md-4">
+                <div class="third-section-minor-header">Reklamacje</div>
+                <div class="third-section-text third-section-text-margin">pon - nd, 7:00 - 20:00</div>
+                <div class="third-section-text">801 001 001</div>
+                <div class="third-section-text third-section-text-margin">+48 500 001 001</div>
+                <div class="third-section-text">reklamacje@sbank.com</div>
+            </div>
         </div>
-        <div class="col-md-4">
-            <div class="third-section-minor-header">Reklamacje</div>
-            <div class="third-section-text third-section-text-margin">pon - nd, 7:00 - 20:00</div>
-            <div class="third-section-text">801 001 001</div>
-            <div class="third-section-text third-section-text-margin">+48 500 001 001</div>
-            <div class="third-section-text">reklamacje@sbank.com</div>
-        </div>
-    </div>
-    <div class="row"><div class="third-section-header text-center">Formularz kontaktowy</div></div>
-    <div class="row"><div class="third-section-text text-center">Skontaktuj się z nami przy pomocy formularza kontaktowego. Podaj adres email na który chciałbyś uzyskać odpowiedź konsultanta.</div></div>
-    <div class="row">
-        <div class="form-section">
-            <div class="form-comment text-center form-comment-vertical-center">przeniesiony formularz z /Home/Contact</div>
-        </div>
-        @*Przenieść formularz kontaktowy *@
+        <div class="row"><div class="third-section-header text-center">Formularz kontaktowy</div></div>
+        <div class="row"><div class="third-section-text text-center">Skontaktuj się z nami przy pomocy formularza kontaktowego.<br />Podaj adres email na który chciałbyś uzyskać odpowiedź konsultanta.</div></div>
 
-        @using (Html.BeginForm())
-        {
-            @Html.AntiForgeryToken()
-            <div class="form-group">
-                @Html.LabelFor(m => m.FromName, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.TextBoxFor(m => m.FromName, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.FromName)
-                </div>
+        <div class="row">
+            <div class="form-section">
+                @using (Html.BeginForm())
+            {
+                    @Html.AntiForgeryToken()
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.FromName, new { @class = "col-md-offset-1 col-md-2 control-label third-section-text" })
+                        <div class="col-md-8 form-section-input">
+                            @Html.TextBoxFor(m => m.FromName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.FromName)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.FromEmail, new { @class = "col-md-offset-1 col-md-2 control-label third-section-text" })
+                        <div class="col-md-8 form-section-input">
+                            @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.FromEmail)
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(m => m.Message, new { @class = "col-md-offset-1 col-md-2 control-label third-section-text" })
+                        <div class="col-md-8 form-section-input">
+                            @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Message)
+                        </div>
+                    </div>
+                    <div class="form-group text-center">
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-default" value="Wyślij" />
+                        </div>
+                    </div>
+                }
             </div>
-            <div class="form-group">
-                @Html.LabelFor(m => m.FromEmail, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.TextBoxFor(m => m.FromEmail, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.FromEmail)
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor(m => m.Message, new { @class = "col-md-2 control-label" })
-                <div class="col-md-10">
-                    @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
-                    @Html.ValidationMessageFor(m => m.Message)
-                </div>
-            </div>
-            <div class="form-group">
-                <div class="col-md-offset-2 col-md-10">
-                    <input type="submit" class="btn btn-default" value="Send" />
-                </div>
-            </div>
-        }
+        </div>
     </div>
 </div>
+
+<div class="row">
+    <div class="col-md-12 second-section">
+        <div class="row second-section-header text-center">Oddział banku</div>
+        <div class="row">
+            <div class="second-section-text">pon - pt, 7:00 - 18:00</div>
+            <div class="second-section-text">ul. Wita Stwosza 57</div>
+            <div class="second-section-text">80-952 Gdańsk</div>
+        </div>
+    </div>
+    <div class="col-md-12 second-section-location"></div>
+</div>
+
+        
+
 
 @section Scripts {
     @Scripts.Render("~/bundles/jquery")

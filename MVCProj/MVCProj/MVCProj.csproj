@@ -204,6 +204,7 @@
     <Content Include="Content\images\money.png" />
     <Content Include="Content\images\pig.png" />
     <Content Include="Content\images\pin.png" />
+    <Content Include="Content\images\staticmap.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />

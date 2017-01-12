@@ -11,12 +11,12 @@
     padding-right: 15px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
+/* Set width on the form input elements since they're 100% wide by default 
 input,
 select,
 textarea {
     max-width: 280px;
-}
+}*/
 
 .margin-top-20 {
     margin-top: 20px;
@@ -153,6 +153,13 @@ textarea {
 }
 .second-section-button:focus {outline:0;}
 
+.second-section-location {
+    height: 440px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: url(/Content/images/staticmap.png) no-repeat center center;
+}
+
 .third-section {
     margin-left: 15px;
     margin-right: 15px;
@@ -183,25 +190,55 @@ textarea {
     margin-bottom: 10px;
 }
 
-/*zamienić*/
 .form-section {
-    height: 120px;
-    background-color: rgba(255, 255, 255, 0.6);
+    /*background-color: rgba(255, 255, 255, 0.6);*/
     margin-left: 15px;
     margin-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
-.form-comment {
+.form-section-input {
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.form-section input[type="text"],
+.form-section textarea {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 0px;
+    border-style: none;
+     font-size: 18px;
+}
+
+.form-section input[type="text"]:focus,
+.form-section textarea:focus {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-shadow: none;
+}
+
+.form-section input[type="submit"] {
+    border: 4px;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: #37474F;
+    color: #37474F;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 5px 32px;
+    margin-top: 30px;
+    text-align: center;
+    text-decoration: none;
     font-size: 20px;
-    font-weight: 200;
-    color: rgba(0, 0, 0, 0.5);
-    font-style: italic;
 }
 
-.form-comment-vertical-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 120px;
+.form-section input[type="submit"]:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
 }
-/*-------------*/
+
+.form-section input[type="submit"]:active {
+    position:relative;
+    top:2px;
+}
+
+.form-section input[type="submit"]:focus {outline:0;}
