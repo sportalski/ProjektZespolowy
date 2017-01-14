@@ -55,5 +55,15 @@ namespace SeleniumTest
             Assert.IsTrue(driverGC.PageSource.Contains("logowanie testowe"));
             Assert.IsTrue(driverGC.PageSource.Contains("0,00 zł"));
         }
+        [TestMethod]
+        public void TestFormularzKontaktowy()
+        {
+            driverGC.Navigate().GoToUrl("http://localhost:56431/");
+            driverGC.FindElement(By.Id("FromName")).SendKeys("Michał");
+            driverGC.FindElement(By.Id("FromEmail")).SendKeys("testowy@mail.pl");
+            driverGC.FindElement(By.Id("Message")).SendKeys("To jest testowa wiadomość");
+            driverGC.FindElement(By.XPath("/html[@class=' js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths']/body/div[@class='container body-content']/div[@class='row'][4]/div[@class='col-md-12 third-section']/div[@class='row'][5]/div[@class='form-section']/form/div[@class='form-group text-center']/div[@class='col-md-12']/input[@class='btn btn-default']")).Click();
+            Assert.IsTrue(driverGC.PageSource.Contains("O stronie."));
+        }
     }
 }
