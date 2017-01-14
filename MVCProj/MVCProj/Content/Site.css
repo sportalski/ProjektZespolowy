@@ -3,6 +3,7 @@
     padding-bottom: 20px;
     font-family: 'Catamaran', sans-serif;
     color: #37474F;
+    font-size: 18px;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -242,3 +243,5 @@ textarea {
 }
 
 .form-section input[type="submit"]:focus {outline:0;}
+
+.anchor:target {padding-top: 60px;}

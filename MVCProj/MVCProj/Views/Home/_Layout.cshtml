@@ -30,8 +30,9 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("O stronie", "About", "Home")</li>
+                    <li>@Html.ActionLink("Strona główna", "Index", "Home")</li>
+                    <li><a href="#about_us">O stronie</a></li>
+                    <li><a href="#contact">Kontakt</a></li>
                 </ul>
                 @Html.Partial("_LoginPartial")                                
             </div>
@@ -43,9 +44,8 @@
         </div>
         @RenderBody()
         <hr />
-        @Html.ActionLink("tymczasowy link do panelu użytkownika", "Index", "UserAccount")
         <footer>
-            <p>&copy; @DateTime.Now.Year - COKOLWIEK -</p>
+            <p>&copy; @DateTime.Now.Year - Bank Studencki</p>
         </footer>
     </div>
 

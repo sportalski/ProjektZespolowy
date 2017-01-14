@@ -22,11 +22,9 @@ namespace MVCProj.Controllers
             return View();
         }
 
-        // GET /home/about        
-        public ActionResult About()
+        // GET /home/emailStatus       
+        public ActionResult EmailStatus()
         {
-            ViewBag.Message = "Your application description page.";
-
             return View();
         }
 
@@ -74,7 +72,7 @@ namespace MVCProj.Controllers
                      smtp.Port = 587;
                      smtp.EnableSsl = false;
                      await smtp.SendMailAsync(message);
-                     return RedirectToAction("About");
+                     return RedirectToAction("EmailStatus");
                  }
             }
             return View(model);

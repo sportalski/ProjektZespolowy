@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Kontakt";
+}
+
+<div class="row">
+    <div class="col-md-12"><img src="~/Content/images/logo.png" class="logo" /></div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 second-section">
+        <div class="row second-section-header text-center">Wiadomość email została wysłana</div>
+        <div class="second-section-text text-center">Skontaktujemy się z Państwem na adres podany w formularzu.</div>
+    </div>
+</div>
+
+<div class="row text-center">
+    @Html.ActionLink("powrót do strony głównej", "Index", "Home", new { }, new { @class = "home-section-button", @style = "left:0" })
+</div>
