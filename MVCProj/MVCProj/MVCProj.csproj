@@ -205,6 +205,8 @@
     <Content Include="Content\images\pig.png" />
     <Content Include="Content\images\pin.png" />
     <Content Include="Content\images\staticmap.png" />
+    <Content Include="Content\home.css" />
+    <Content Include="Content\login-register.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -243,7 +245,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\EmailStatus.cshtml" />
     <Content Include="Views\UserAccount\Index.cshtml" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
@@ -266,7 +267,8 @@
     <Content Include="Views\CheckingAccount\List.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\_ViewStart.cshtml" />
-    <Content Include="Views\Home\_Layout.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Account\_ViewStart.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -44,10 +44,10 @@ namespace MVCProj.Models
 
         [Required]
         [DataType(DataType.Password)]
-        [Display(Name = "Password")]
+        [Display(Name = "Hasło")]
         public string Password { get; set; }
 
-        [Display(Name = "Remember me?")]
+        [Display(Name = "Zapamiętaj mnie")]
         public bool RememberMe { get; set; }
     }
 
@@ -59,22 +59,22 @@ namespace MVCProj.Models
         public string Email { get; set; }
 
         [Required]
-        [Display(Name = "First name")]
+        [Display(Name = "Imię")]
         public string FirstName { get; set; }
 
         [Required]
-        [Display(Name = "Last name")]
+        [Display(Name = "Nazwisko")]
         public string LastName { get; set; }
 
         [Required]
-        [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
+        [StringLength(100, ErrorMessage = "{0} musi składać się conajmniej z {2} znaków.", MinimumLength = 6)]
         [DataType(DataType.Password)]
-        [Display(Name = "Password")]
+        [Display(Name = "Hasło")]
         public string Password { get; set; }
 
         [DataType(DataType.Password)]
-        [Display(Name = "Confirm password")]
-        [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
+        [Display(Name = "Powtórzone hasło")]
+        [Compare("Password", ErrorMessage = "Hasło i powtórzone hasło są różne.")]
         public string ConfirmPassword { get; set; }
     }
 
