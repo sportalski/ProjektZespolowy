@@ -1,5 +1,5 @@
 ﻿@{
-    ViewBag.Title = "Strona glowna";    
+    ViewBag.Title = "Strona główna";    
 }
 
 
@@ -13,7 +13,7 @@
         <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-print"></span> Historia przelewow</a>
         <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-transfer"></span> Przelej srodki</a>
         <a href="@Url.Action("Deposit", "Transaction", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Depozyt</a>
-        <a href="@Url.Action("List", "CheckingAccount", new {checkingAccountId = ViewBag.CheckingAccountId})" cl class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Lista</a>
+        <a href="@Url.Action("List", "CheckingAccount", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-list-alt"></span> Lista</a>
     </div>
 </div>
 @ViewBag.Pin
