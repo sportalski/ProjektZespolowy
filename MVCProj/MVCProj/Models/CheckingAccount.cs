@@ -15,7 +15,7 @@ namespace MVCProj.Models
         [StringLength(10)]
         [Column(TypeName="varchar")]
         [RegularExpression(@"\d{6,10}", ErrorMessage="Numer konta # ma zawierac od 6 do 10 znakow" )]
-        [Display(Name="Numer konta #")]
+        [Display(Name="Numer konta")]
         public string AccountNumber { get; set; }
 
         [Required]
@@ -26,6 +26,7 @@ namespace MVCProj.Models
         [Display(Name = "Nazwisko")]
         public string LastName { get; set; }
 
+        [Display(Name = "Imię i nazwisko")]
         public string Name { get { return String.Format("{0} {1}", this.FirstName, this.LastName); } }
         
         [Display(Name = "Stan konta")]

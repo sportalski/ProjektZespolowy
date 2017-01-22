@@ -232,16 +232,58 @@ textarea {
     font-size: 20px;
 }
 
-.form-section input[type="submit"]:hover {
+.user-profile-btn {
+    color: #37474F;
+    padding: 0px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+}
+
+.user-profile-btn-frame {
+    border: 0px;
+    border-style: none;
+    border-radius: 2px;    
+    border-color: #37474F;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.form-section input[type="submit"]:hover,
+.user-profile-btn-frame:hover {
     background-color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
-.form-section input[type="submit"]:active {
+.form-section input[type="submit"]:active,
+.user-profile-btn-frame:active {
     position:relative;
     top:2px;
 }
 
-.form-section input[type="submit"]:focus {outline:0;}
+.form-section input[type="submit"]:focus,
+.user-profile-btn-frame:focus {outline:0;}
 
 .anchor:target {padding-top: 60px;}
+
+.menu-section {
+    background-color: #CFD8DC;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
+
+.menu-section-header {
+    font-size: 28px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.menu-section-button {
+    font-size: 25px;
+    padding: 4px 32px;
+}
+
+.middle-menu-section {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

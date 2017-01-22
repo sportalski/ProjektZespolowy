@@ -24,7 +24,9 @@ namespace MVCProj.Controllers
             var manager = HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
             var user = manager.FindById(userId);
             ViewBag.Pin = user.Pin;
-            return View();
+
+            var checkingAccount = db.CheckingAccounts.Where(c => c.ApplicationUserId == userId).First();
+            return View(checkingAccount);
         }
 
         public ActionResult Serial(string letterCase)

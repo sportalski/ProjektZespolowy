@@ -1,20 +1,76 @@
-﻿@{
-    ViewBag.Title = "Zarządzanie kontem";    
+﻿@model MVCProj.Models.CheckingAccount
+@{
+    ViewBag.Title = "Profil użytkownika";
 }
 
-
 <div class="row">
-    <div class="col-md-6 margin-top-20">
-        <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Wyplac</a>
-        <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-flash"></span> Szybka wyplata 100zl</a>
-        <a href="@Url.Action("Details", "CheckingAccount")" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-question-sign"></span> Stan konta</a>
-        <a href="@Url.Action("Manage", "Account")" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-pencil"></span> Zmiana hasła</a>
-    </div>
-    <div class="col-md-6 margin-top-20">
-        <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-print"></span> Historia przelewow</a>
-        <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-transfer"></span> Przelej srodki</a>
-        <a href="@Url.Action("Deposit", "Transaction", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Depozyt</a>
-        <a href="@Url.Action("List", "CheckingAccount", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-list-alt"></span> Lista</a>
+    <div class="col-md-12"><img src="~/Content/images/logo.png" class="logo" /></div>
+</div>
+
+<div class="row menu-section">
+    <div class="col-md-12">
+        <div class="row text-center">
+            <div class="col-md-3">@Html.ActionLink("Twoje konto", "Index", "UserAccount", new { }, new { @class = "user-profile-btn user-profile-btn-frame" })</div>
+            <div class="col-md-3">@Html.ActionLink("Historia przelewów", "Index", "UserAccount", new { }, new { @class = "user-profile-btn user-profile-btn-frame" })</div>
+            <div class="col-md-3">@Html.ActionLink("Zmiana hasła", "Manage", "Account", new { }, new { @class = "user-profile-btn user-profile-btn-frame" })</div>
+            <div class="col-md-3">@Html.ActionLink("Lokata", "Index", "UserAccount", new { }, new { @class = "user-profile-btn user-profile-btn-frame" })</div>
+        </div>
+        <div class="middle-menu-section">
+            <div class="row menu-section-header text-center">Stan Konta Student</div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-4">
+                    <dl class="dl-horizontal">
+                        <dt>
+                            @Html.DisplayNameFor(model => model.AccountNumber)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.AccountNumber)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Name)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Name)
+                        </dd>
+
+                        <dt>
+                            @Html.DisplayNameFor(model => model.Balance)
+                        </dt>
+
+                        <dd>
+                            @Html.DisplayFor(model => model.Balance)
+                        </dd>
+
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <a href="#" class="btn home-section-button menu-section-button" style="left: 0">
+                <span class="glyphicon glyphicon-transfer " style="top: 5px"></span> Przelej środki
+            </a>
+        </div>
     </div>
 </div>
-@ViewBag.Pin
+
+
+@*
+    <div class="row">
+        <div class="col-md-6 margin-top-20">
+            <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-down"></span> Wyplac</a>
+            <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-flash"></span> Szybka wyplata 100zl</a>
+            <a href="@Url.Action("Details", "CheckingAccount")" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-question-sign"></span> Stan konta</a>
+            <a href="@Url.Action("Manage", "Account")" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-pencil"></span> Zmiana hasła</a>
+        </div>
+        <div class="col-md-6 margin-top-20">
+            <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-print"></span> Historia przelewow</a>
+            <a href="#" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-transfer"></span> Przelej srodki</a>
+            <a href="@Url.Action("Deposit", "Transaction", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-circle-arrow-up"></span> Depozyt</a>
+            <a href="@Url.Action("List", "CheckingAccount", new {checkingAccountId = ViewBag.CheckingAccountId})" class="btn btn-primary btn-large btn-block"><span class="glyphicon glyphicon-list-alt"></span> Lista</a>
+        </div>
+    </div>
+*@
+    @ViewBag.Pin
