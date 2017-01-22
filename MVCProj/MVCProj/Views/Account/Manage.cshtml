@@ -1,10 +1,19 @@
 ﻿@using MVCProj.Models;
 @using Microsoft.AspNet.Identity;
 @{
-    ViewBag.Title = "Manage Account";
+    ViewBag.Title = "Zmiana danych";
 }
 
-<h2>@ViewBag.Title.</h2>
+<div class="row">
+    <div class="col-md-12"><img src="~/Content/images/logo.png" class="logo" /></div>
+</div>
+
+<div class="row">
+    <div class="section-padding col-md-12 text-center">
+        <div class="section-header">Dostęp do konta</div>
+        <div class="section-text">Zmień aktualne hasło do Twojego konta online.</div>
+    </div>
+</div>
 
 <p class="text-success">@ViewBag.StatusMessage</p>
 <div class="row">
