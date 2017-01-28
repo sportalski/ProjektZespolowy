@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using MVCProj.Models;
 using Microsoft.AspNet.Identity.Owin;
+using System.Threading.Tasks;
 
 namespace MVCProj.Controllers
 {
@@ -33,7 +34,29 @@ namespace MVCProj.Controllers
         [Authorize]
         public ActionResult Transfer()
         {
-            return View();
+            TransferModel model = new TransferModel();
+            var userId = User.Identity.GetUserId();
+            var checkingAccount = db.CheckingAccounts.Where(c => c.ApplicationUserId == userId).First();
+            model.UserName = checkingAccount.Name;
+            model.AccountNumber = checkingAccount.AccountNumber;
+            model.Balance = checkingAccount.Balance;
+            return View(model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<ActionResult> Transfer(TransferModel model)
+        {
+            var userId = User.Identity.GetUserId();
+            var checkingAccount = db.CheckingAccounts.Where(c => c.ApplicationUserId == userId).First();
+            model.UserName = checkingAccount.Name;
+            model.AccountNumber = checkingAccount.AccountNumber;
+            model.Balance = checkingAccount.Balance;
+            if (ModelState.IsValid)
+            {
+                return View(model);
+            }
+            return View(model);
         }
 
         public ActionResult Serial(string letterCase)
