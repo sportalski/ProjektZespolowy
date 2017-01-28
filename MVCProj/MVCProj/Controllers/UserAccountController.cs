@@ -29,6 +29,13 @@ namespace MVCProj.Controllers
             return View(checkingAccount);
         }
 
+       
+        [Authorize]
+        public ActionResult Transfer()
+        {
+            return View();
+        }
+
         public ActionResult Serial(string letterCase)
         {
             var serial = "ASPNETMVC5ATM1";

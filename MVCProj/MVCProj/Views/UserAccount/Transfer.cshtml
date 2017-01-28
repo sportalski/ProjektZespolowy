@@ -1,0 +1,80 @@
+﻿@using MVCProj.Models;
+@using Microsoft.AspNet.Identity;
+@{
+    ViewBag.Title = "Przelew krajowy";
+}
+
+<div class="row">
+    <div class="col-md-12"><img src="~/Content/images/logo.png" class="logo" /></div>
+</div>
+
+<div class="row">
+    <div class="section-padding col-md-12 text-center">
+        <div class="section-header">Przelew środków</div>
+        <div class="section-text">Aby wykonać przelew uzupełnij formularz.</div>
+    </div>
+</div>
+
+<div class="row">
+    <section class="form-section col-md-12 text-center">
+        @using (Html.BeginForm("Manage", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        {
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div class="form-group">
+                @Html.LabelFor("etyketa - rachunek odbiorcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @Html.PasswordFor("numer konta", new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("etykieta - tytul przelewu", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @Html.PasswordFor("tytul", new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("etykieta - imie i nazwisko odbiorcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @Html.TextBoxFor("odbiorca", new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("etykieta - adres odbiorcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @Html.TextBoxFor("adres", new { @class = "form-control" })
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("etykieta - imie i nazwisko nadawcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                 @*   @Html.DisplayFor(model => model.Name) *@
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("etykieta - rachunek nadawcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @*   @Html.DisplayFor(model => model.AccountNumber) *@
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("etykieta - dostępne środki", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @*   @Html.DisplayFor(model => model.Balance) *@
+                </div>
+            </div>
+            <div class="form-group">
+                @Html.LabelFor("kwota przelewu", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                    @Html.TextBoxFor("", new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-12">
+                    <input type="submit" value="Wykonaj przelew" class="btn btn-default" />
+                </div>
+            </div>
+        }
+    </section>
+</div>
