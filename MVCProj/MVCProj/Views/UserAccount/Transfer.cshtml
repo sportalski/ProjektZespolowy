@@ -1,5 +1,5 @@
-﻿@using MVCProj.Models;
-@using Microsoft.AspNet.Identity;
+﻿@using Microsoft.AspNet.Identity;
+@model MVCProj.Models.TransferModel
 @{
     ViewBag.Title = "Przelew krajowy";
 }
@@ -17,56 +17,58 @@
 
 <div class="row">
     <section class="form-section col-md-12 text-center">
-        @using (Html.BeginForm("Manage", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+        @using (Html.BeginForm("Manage", "Acco1unt", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
         {
             @Html.AntiForgeryToken()
             @Html.ValidationSummary("", new { @class = "text-danger" })
             <div class="form-group">
-                @Html.LabelFor("etyketa - rachunek odbiorcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.ReceiverAccount, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                    @Html.PasswordFor("numer konta", new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.ReceiverAccount, new { @class = "form-control" })
                 </div>
             </div>
             <div class="form-group">
-                @Html.LabelFor("etykieta - tytul przelewu", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.Title, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                    @Html.PasswordFor("tytul", new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.Title, new { @class = "form-control" })
                 </div>
             </div>
             <div class="form-group">
-                @Html.LabelFor("etykieta - imie i nazwisko odbiorcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.ReceiverName, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                    @Html.TextBoxFor("odbiorca", new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.ReceiverName, new { @class = "form-control" })
                 </div>
             </div>
             <div class="form-group">
-                @Html.LabelFor("etykieta - adres odbiorcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.ReceiverAddress, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                    @Html.TextBoxFor("adres", new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.ReceiverAddress, new { @class = "form-control" })
+                </div>
+            </div>
+            <hr class="col-md-8 col-md-offset-2"/>
+            <div class="form-group">
+                @Html.LabelFor(m => m.UserName, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                <div class="col-md-6">
+                @Html.DisplayFor(model => model.UserName)
                 </div>
             </div>
             <div class="form-group">
-                @Html.LabelFor("etykieta - imie i nazwisko nadawcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.AccountNumber, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                 @*   @Html.DisplayFor(model => model.Name) *@
+                @Html.DisplayFor(model => model.AccountNumber)
                 </div>
             </div>
             <div class="form-group">
-                @Html.LabelFor("etykieta - rachunek nadawcy", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.Balance, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                    @*   @Html.DisplayFor(model => model.AccountNumber) *@
+                @Html.DisplayFor(model => model.Balance)
                 </div>
             </div>
+            <hr class="col-md-8 col-md-offset-2"/>
             <div class="form-group">
-                @Html.LabelFor("etykieta - dostępne środki", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
+                @Html.LabelFor(m => m.Amount, new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
                 <div class="col-md-6">
-                    @*   @Html.DisplayFor(model => model.Balance) *@
-                </div>
-            </div>
-            <div class="form-group">
-                @Html.LabelFor("kwota przelewu", new { @class = "col-md-offset-2 col-md-2 control-label section-text" })
-                <div class="col-md-6">
-                    @Html.TextBoxFor("", new { @class = "form-control" })
+                    @Html.TextBoxFor(m => m.Amount, new { @class = "form-control" })
                 </div>
             </div>
 
