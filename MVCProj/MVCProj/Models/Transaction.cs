@@ -12,6 +12,7 @@ namespace MVCProj.Models
         
         [Required]
         [DataType(DataType.Currency)]
+        [Display(Name = "Kwota")]
         public decimal Amount { get; set; }
 
         [Required]

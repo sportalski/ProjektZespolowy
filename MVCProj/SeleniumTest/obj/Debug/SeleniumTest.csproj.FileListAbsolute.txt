@@ -8,3 +8,12 @@ C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\bin\Debug\Web
 C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
 C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.dll
 C:\Users\krakm\Source\Repos\ProjektZespolowy2\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\TO\MVCProj\SeleniumTest\bin\Debug\SeleniumTest.dll
+C:\TO\MVCProj\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\TO\MVCProj\SeleniumTest\bin\Debug\WebDriver.dll
+C:\TO\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.dll
+C:\TO\MVCProj\SeleniumTest\bin\Debug\WebDriver.xml
+C:\TO\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.xml
+C:\TO\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+C:\TO\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.dll
+C:\TO\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.pdb

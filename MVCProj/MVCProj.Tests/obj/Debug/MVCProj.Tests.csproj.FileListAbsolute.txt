@@ -1,0 +1,1 @@
+C:\TO\MVCProj\MVCProj.Tests\obj\Debug\MVCProj.Tests.csprojResolveAssemblyReference.cache
