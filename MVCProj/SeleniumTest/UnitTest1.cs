@@ -83,5 +83,20 @@ namespace SeleniumTest
             driverGC.FindElement(By.XPath("//input[contains(@class, 'btn btn-default')]")).Click();
             Assert.IsTrue(driverGC.PageSource.Contains("Wartość w polu Email nie jest prawidłowym adresem e-mail."));
         }
-    }
+        [TestMethod]
+        public void TestPrzelewWalidacja()
+        {
+            driverGC.Navigate().GoToUrl("http://localhost:56431/");
+            driverGC.FindElement(By.LinkText("Logowanie")).Click();
+            driverGC.FindElement(By.Name("Email")).SendKeys("logowanie@testowe.pl");
+            driverGC.FindElement(By.Name("Password")).SendKeys("1Q2w3e4r%");
+            driverGC.FindElement(By.XPath("//input[contains(@class, 'btn btn-default')]")).Click();
+            driverGC.FindElement(By.XPath("//a[contains(@class, 'btn home-section-button menu-section-button')]")).Click();
+            driverGC.FindElement(By.XPath("//input[contains(@class, 'btn btn-default')]")).Click();
+            Assert.IsTrue(driverGC.PageSource.Contains("Pole Rachunek odbiorcy jest wymagane."));
+            Assert.IsTrue(driverGC.PageSource.Contains("Pole Tytuł przelewu jest wymagane."));
+            Assert.IsTrue(driverGC.PageSource.Contains("Pole Imię i nazwisko odbiorcy jest wymagane."));
+            Assert.IsTrue(driverGC.PageSource.Contains("Pole Kwota przelewu jest wymagane."));
+        }
+        }
 }

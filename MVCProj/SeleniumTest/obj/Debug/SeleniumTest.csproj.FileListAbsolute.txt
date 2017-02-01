@@ -17,3 +17,14 @@ C:\TO\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.xml
 C:\TO\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
 C:\TO\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.dll
 C:\TO\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.pdb
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\SeleniumTest.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\SeleniumTest.pdb
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\WebDriver.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\WebDriver.xml
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\WebDriver.Support.xml
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.csprojResolveAssemblyReference.cache
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.dll
+C:\Users\krakm\Source\Repos\ProjektZespolowy3\MVCProj\SeleniumTest\obj\Debug\SeleniumTest.pdb
